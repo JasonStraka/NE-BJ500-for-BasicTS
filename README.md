@@ -10,17 +10,18 @@
 9. run model on examples/DCRNN/DCRNN_BJ500.py
 
 Result:
-      data_file_path = datasets/raw_data/BJ500/BJ500.h5             
-                 dom = True                                         
-                 dow = True                                         
-     graph_file_path = datasets/raw_data/BJ500/Adj(BJ500).txt       
-     history_seq_len = 12                                           
-   norm_each_channel = False                                        
-          output_dir = datasets/BJ500                               
-      target_channel = [0]                                          
-                 tod = True                                         
-         train_ratio = 0.7                                          
-         valid_ratio = 0.1                                          
+
+data_file_path = datasets/raw_data/BJ500/BJ500.h5             
+dom = True                                         
+dow = True                                         
+graph_file_path = datasets/raw_data/BJ500/Adj(BJ500).txt       
+history_seq_len = 12                                           
+norm_each_channel = False                                        
+output_dir = datasets/BJ500                               
+target_channel = [0]                                          
+tod = True                                         
+train_ratio = 0.7                                          
+valid_ratio = 0.1                                          
 raw time series shape: (6624, 500, 1)
 number of training samples:4621
 number of validation samples:660
