@@ -1,4 +1,5 @@
 "# NE-BJ500-for-BasicTS" 
+将NE-BJ数据集用于交通流MTS预测，基于Traffic-Benchmark中公开数据，以BasicTS格式呈现。
 1. Download https://github.com/zezhishao/BasicTS and https://github.com/tsinghua-fib-lab/Traffic-Benchmark/tree/master/methods/GMAN/BJ500/data
 2. copy files to /BasicTS
 3.   BJ500.h5(unzip BJ500.7z)   to datasets\raw_data\BJ500\BJ500.h5
