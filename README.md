@@ -1,14 +1,13 @@
 "# NE-BJ500-for-BasicTS" 
 将NE-BJ数据集用于交通流MTS预测，基于Traffic-Benchmark中公开数据，以BasicTS格式呈现。
 1. Download https://github.com/zezhishao/BasicTS and https://github.com/tsinghua-fib-lab/Traffic-Benchmark/tree/master/methods/GMAN/BJ500/data
-2. copy files to /BasicTS
-3.   BJ500.h5(unzip BJ500.7z)   to datasets\raw_data\BJ500\BJ500.h5
-4.   Adj(BJ500).txt             to datasets\raw_data\BJ500\Adj(BJ500).txt
-5.   generate_training_data.py  to scripts\data_preparation\BJ500\generate_training_data.py
-6.   DCRNN_BJ500.py to examples/DCRNN/DCRNN_BJ500.py
-7. run python scripts\data_preparation\BJ500\generate_training_data.py
-8. check datasets\BJ500\adj_mx.pkl
-9. run model on examples/DCRNN/DCRNN_BJ500.py
+2. copy BJ500.h5(unzip BJ500.7z)   to datasets\raw_data\BJ500\BJ500.h5
+3. copy Adj(BJ500).txt             to datasets\raw_data\BJ500\Adj(BJ500).txt
+4. copy generate_training_data.py  to scripts\data_preparation\BJ500\generate_training_data.py
+5. copy DCRNN_BJ500.py             to examples/DCRNN/DCRNN_BJ500.py
+6. run python scripts\data_preparation\BJ500\generate_training_data.py
+7. check datasets\BJ500\adj_mx.pkl
+8. run model run.py on examples/DCRNN/DCRNN_BJ500.py
 
 Result:
 
