@@ -28,3 +28,5 @@ number of validation samples:660
 number of test samples:1320
 mean (training data): 52.12267299942433
 std (training data): 20.76980173577049
+
+test_time: 15.08 (s), test_MAE: 4.5578, test_RMSE: 8.5757, test_MAPE: 0.1573, test_WAPE: 0.0917, test_MSE: 73.5423
